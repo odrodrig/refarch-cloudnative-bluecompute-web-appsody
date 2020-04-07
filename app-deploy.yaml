@@ -59,6 +59,7 @@ spec:
   expose: true
   service:
     port: 80
+    targetPort: 8000
     type: ClusterIP
   stack: nodejs
   version: 1.0.0
