@@ -1,3 +1,3 @@
 id: "20200406214754.91719800"
 project-name: web
-stack: kabanero/nodejs:0.3
+stack: kabanero/nodejs:0.2

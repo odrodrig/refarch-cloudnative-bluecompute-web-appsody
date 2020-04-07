@@ -96,11 +96,12 @@ function onListening() {
     ? 'pipe ' + addr
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
+  console.log('Listening on ' + bind);
 
-  // open the browser and navigate to the home page
-  var isLinux = /^linux/.test(process.platform);
-  if (isLinux) open('http://127.0.0.1:' + addr.port, "google-chrome");
-  else open('http://127.0.0.1:' + addr.port);
+  // // open the browser and navigate to the home page
+  // var isLinux = /^linux/.test(process.platform);
+  // if (isLinux) open('http://127.0.0.1:' + addr.port, "google-chrome");
+  // else open('http://127.0.0.1:' + addr.port);
 }
 
 function onListeningManagement() {
