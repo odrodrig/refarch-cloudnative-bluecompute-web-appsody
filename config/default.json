@@ -10,7 +10,7 @@
   "APIs": {
     "catalog": {
       "protocol": "http",
-      "service_name": "catalog:8081",
+      "service_name": "catalog-dev.devops-gse-state-farm-o-0143c5dd31acd8e030a1d6e0ab1380e3-0001.us-east.containers.appdomain.cloud",
       "base_path": "/micro",
       "require": [
       ]
