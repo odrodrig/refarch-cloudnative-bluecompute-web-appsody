@@ -1,3 +1,3 @@
 id: "20200420002154.92347200"
-project-name: playbacktest
+project-name: web
 stack: docker.io/odrodrig/custom-node:0.4

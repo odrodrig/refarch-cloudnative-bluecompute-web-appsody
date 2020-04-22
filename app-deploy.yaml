@@ -68,7 +68,7 @@ metadata:
     stack.appsody.dev/version: 0.4.0
   name: web
 spec:
-  applicationImage: dev.local/playbacktest
+  applicationImage: docker.io/orod/bluecompute-web
   createKnativeService: false
   expose: true
   pullSecret: ibm-cr-pull-secret
@@ -76,5 +76,5 @@ spec:
     port: 80
     targetPort: 8000
     type: ClusterIP
-  stack: nodejs
+  stack: custom-node
   version: 0.6.0
