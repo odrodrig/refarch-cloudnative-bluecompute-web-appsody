@@ -5,22 +5,22 @@ metadata:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
     build-date: 2020-01-30T08:17:04.175507
-    commit.image.appsody.dev/author: Oliver Rodriguez <odrodrig@us.ibm.com>
-    commit.image.appsody.dev/committer: Oliver Rodriguez <odrodrig@us.ibm.com>
-    commit.image.appsody.dev/date: Fri Apr 10 09:47:45 2020 -0500
-    commit.image.appsody.dev/message: Changed home page
-    commit.stack.appsody.dev/author: Steve Groeger <groeges@uk.ibm.com>
+    commit.image.appsody.dev/author: Oliver Rodriguez <oliverd.rodriguez@gmail.com>
+    commit.image.appsody.dev/committer: GitHub <noreply@github.com>
+    commit.image.appsody.dev/date: Tue Apr 21 16:09:44 2020 -0500
+    commit.image.appsody.dev/message: Update home.html
+    commit.stack.appsody.dev/author: kilnerm <38245247+kilnerm@users.noreply.github.com>
     commit.stack.appsody.dev/committer: GitHub <noreply@github.com>
     commit.stack.appsody.dev/contextDir: /incubator/nodejs
-    commit.stack.appsody.dev/date: Tue Mar 10 21:35:36 2020 +0000
-    commit.stack.appsody.dev/message: 'Merge pull request #313 from groeges/release-0.6'
+    commit.stack.appsody.dev/date: Fri Apr 3 09:22:57 2020 +0100
+    commit.stack.appsody.dev/message: 'Merge pull request #316 from groeges/release-0.6'
     description: This image contains the Kabanero development stack for the Nodejs
       collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2020-04-20T00:27:48-05:00"
+    image.opencontainers.org/created: "2020-04-21T23:45:33-05:00"
     image.opencontainers.org/documentation: https://github.com/odrodrig/refarch-cloudnative-bluecompute-web-appsody
-    image.opencontainers.org/revision: 7fe989a3d044c90957c9a117662c9764ca27890a-modified
+    image.opencontainers.org/revision: f8da5a1f073e5daf58675d51f7d599121eea9eb6-modified
     image.opencontainers.org/source: https://github.com/odrodrig/refarch-cloudnative-bluecompute-web-appsody/tree/master
     image.opencontainers.org/url: https://github.com/odrodrig/refarch-cloudnative-bluecompute-web-appsody
     k8s.io/description: Node.js 12 available as container is a base platform for building
@@ -31,7 +31,7 @@ metadata:
       that run across distributed devices.
     k8s.io/display-name: Node.js 12
     maintainer: SoftwareCollections.org <sclorg@redhat.com>
-    name: kabanero/nodejs
+    name: oliver-custom/custom-node
     openshift.io/expose-services: 8080:http
     openshift.io/tags: builder,nodejs,nodejs12
     redhat.com/build-host: cpt-1001.osbs.prod.upshift.rdu2.redhat.com
@@ -44,15 +44,15 @@ metadata:
     s2i.io/scripts-url: image:///usr/libexec/s2i
     s2i.openshift.io/scripts-url: image:///usr/libexec/s2i
     stack.appsody.dev/authors: Sam Roberts <vieuxtech@gmail.com>
-    stack.appsody.dev/configured: dev.local/appsody/custom-node:0.3
-    stack.appsody.dev/created: "2020-04-20T00:05:01-05:00"
+    stack.appsody.dev/configured: dev.local/appsody/custom-node:0.4
+    stack.appsody.dev/created: "2020-04-20T00:55:38-05:00"
     stack.appsody.dev/description: Runtime for Node.js applications
     stack.appsody.dev/documentation: https://github.com/kabanero-io/collections/tree/master/incubator/nodejs/README.md
     stack.appsody.dev/licenses: Apache-2.0
-    stack.appsody.dev/revision: 5f7634c970b880bef90eeea4288153249e172d61
+    stack.appsody.dev/revision: 27a3254c80e6c5367a76e6099c2e18b393d15841
     stack.appsody.dev/source: https://github.com/kabanero-io/collections/tree/master/incubator/nodejs/image
-    stack.appsody.dev/tag: dev.local/appsody/custom-node:0.3.3
-    stack.appsody.dev/title: Node.js
+    stack.appsody.dev/tag: dev.local/appsody/custom-node:0.4.0
+    stack.appsody.dev/title: Custom Node
     stack.appsody.dev/url: https://github.com/kabanero-io/collections/tree/master/incubator/nodejs
     summary: Image for Kabanero Nodejs development
     url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/nodejs-12/images/1-27
@@ -60,12 +60,12 @@ metadata:
     vcs-ref: 9a85b86edcc6c765692f15311abe259b0f9997b2
     vcs-type: git
     vendor: Kabanero
-    version: 0.3.3
+    version: 0.0.1
   creationTimestamp: null
   labels:
     image.opencontainers.org/title: playbacktest
     stack.appsody.dev/id: custom-node
-    stack.appsody.dev/version: 0.3.3
+    stack.appsody.dev/version: 0.4.0
   name: web
 spec:
   applicationImage: dev.local/playbacktest
